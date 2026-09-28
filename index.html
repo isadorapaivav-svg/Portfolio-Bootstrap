@@ -1,0 +1,549 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio | Isadora</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                Isadora.dev
+            </a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ================= INÍCIO ================= -->
+    <header id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+
+                <!-- Texto -->
+                <div class="col-lg-7 text-center text-lg-start">
+
+                    <span class="badge text-bg-primary mb-3">
+                        Estudante de Tecnologia
+                    </span>
+
+                    <h1 class="display-3 fw-bold">
+                        Olá, eu sou <span class="text-primary">Isadora</span>
+                    </h1>
+
+                    <p class="lead text-secondary mt-3">
+                        Estudante de Internet das Coisas (IoT), apaixonada por
+                        tecnologia, criatividade e desenvolvimento de projetos.
+                    </p>
+
+                    <div class="mt-4">
+                        <a href="#projetos" class="btn btn-primary btn-lg me-2 mb-2">
+                            Ver meus projetos
+                        </a>
+
+                        <a href="#contato" class="btn btn-outline-dark btn-lg mb-2">
+                            Entre em contato
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Imagem -->
+                <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                    <div class="profile-image-container">
+                        <img 
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80"
+                            class="img-fluid rounded-circle shadow profile-image"
+                            alt="Computador representando tecnologia">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ================= SOBRE ================= -->
+    <section id="sobre" class="py-5 bg-light">
+
+        <div class="container py-4">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-5">
+                    <img 
+                        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                        class="img-fluid rounded-4 shadow"
+                        alt="Equipe trabalhando com tecnologia">
+                </div>
+
+                <div class="col-lg-7">
+
+                    <span class="text-primary fw-bold">
+                        SOBRE MIM
+                    </span>
+
+                    <h2 class="display-6 fw-bold mt-2">
+                        Tecnologia, criatividade e aprendizado
+                    </h2>
+
+                    <p class="text-secondary mt-3">
+                        Sou estudante do Ensino Médio Técnico em Internet das Coisas
+                        e tenho interesse em tecnologia, desenvolvimento web e criação
+                        de soluções inovadoras.
+                    </p>
+
+                    <p class="text-secondary">
+                        Durante minha formação, venho desenvolvendo projetos que
+                        envolvem programação, banco de dados, dispositivos IoT e
+                        desenvolvimento de interfaces web.
+                    </p>
+
+                    <div class="row mt-4">
+
+                        <div class="col-sm-6 mb-3">
+                            <div class="p-3 bg-white rounded-3 shadow-sm">
+                                <h5 class="fw-bold">
+                                    <i class="bi bi-code-slash text-primary"></i>
+                                    Desenvolvimento
+                                </h5>
+                                <p class="mb-0 text-secondary">
+                                    HTML, CSS, JavaScript e Bootstrap.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 mb-3">
+                            <div class="p-3 bg-white rounded-3 shadow-sm">
+                                <h5 class="fw-bold">
+                                    <i class="bi bi-cpu text-primary"></i>
+                                    IoT
+                                </h5>
+                                <p class="mb-0 text-secondary">
+                                    Projetos envolvendo sensores e dispositivos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJETOS ================= -->
+    <section id="projetos" class="py-5">
+
+        <div class="container py-4">
+
+            <div class="text-center mb-5">
+
+                <span class="text-primary fw-bold">
+                    MEUS PROJETOS
+                </span>
+
+                <h2 class="display-6 fw-bold mt-2">
+                    Projetos em destaque
+                </h2>
+
+                <p class="text-secondary">
+                    Alguns projetos desenvolvidos durante minha formação.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img 
+                            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top project-image"
+                            alt="Tecnologia e segurança">
+
+                        <div class="card-body p-4">
+
+                            <span class="badge text-bg-primary mb-2">
+                                IoT
+                            </span>
+
+                            <h5 class="card-title fw-bold">
+                                Sombra Segura
+                            </h5>
+
+                            <p class="card-text text-secondary">
+                                Solução voltada para aumentar a segurança de
+                                trabalhadores que atuam nas ruas, utilizando
+                                tecnologia para auxiliar em situações de risco.
+                            </p>
+
+                            <button class="btn btn-outline-primary">
+                                Ver projeto
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img 
+                            src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top project-image"
+                            alt="Programação e desenvolvimento">
+
+                        <div class="card-body p-4">
+
+                            <span class="badge text-bg-success mb-2">
+                                Web
+                            </span>
+
+                            <h5 class="card-title fw-bold">
+                                Projeto IoT Web
+                            </h5>
+
+                            <p class="card-text text-secondary">
+                                Aplicação web desenvolvida com HTML, CSS e
+                                JavaScript utilizando Firebase para autenticação
+                                e armazenamento de dados.
+                            </p>
+
+                            <button class="btn btn-outline-success">
+                                Ver projeto
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img 
+                            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                            class="card-img-top project-image"
+                            alt="Placa eletrônica e tecnologia">
+
+                        <div class="card-body p-4">
+
+                            <span class="badge text-bg-warning mb-2">
+                                Automação
+                            </span>
+
+                            <h5 class="card-title fw-bold">
+                                Mini Fábrica Inteligente
+                            </h5>
+
+                            <p class="card-text text-secondary">
+                                Projeto acadêmico envolvendo reconhecimento facial,
+                                banco de dados e dispositivos utilizados em uma
+                                linha de produção.
+                            </p>
+
+                            <button class="btn btn-outline-warning">
+                                Ver projeto
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HABILIDADES ================= -->
+    <section id="habilidades" class="py-5 bg-dark text-white">
+
+        <div class="container py-4">
+
+            <div class="text-center mb-5">
+
+                <span class="text-primary fw-bold">
+                    HABILIDADES
+                </span>
+
+                <h2 class="display-6 fw-bold mt-2">
+                    O que estou aprendendo
+                </h2>
+
+            </div>
+
+
+            <div class="row g-4 text-center">
+
+                <div class="col-6 col-md-3">
+                    <div class="skill-box p-4 rounded-3">
+                        <i class="bi bi-filetype-html display-5 text-primary"></i>
+                        <h5 class="mt-3">HTML</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="skill-box p-4 rounded-3">
+                        <i class="bi bi-filetype-css display-5 text-primary"></i>
+                        <h5 class="mt-3">CSS</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="skill-box p-4 rounded-3">
+                        <i class="bi bi-filetype-js display-5 text-primary"></i>
+                        <h5 class="mt-3">JavaScript</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="skill-box p-4 rounded-3">
+                        <i class="bi bi-bootstrap display-5 text-primary"></i>
+                        <h5 class="mt-3">Bootstrap 5</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTATO ================= -->
+    <section id="contato" class="py-5 bg-light">
+
+        <div class="container py-4">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="text-center mb-5">
+
+                        <span class="text-primary fw-bold">
+                            CONTATO
+                        </span>
+
+                        <h2 class="display-6 fw-bold mt-2">
+                            Entre em contato
+                        </h2>
+
+                        <p class="text-secondary">
+                            Preencha o formulário abaixo para enviar uma mensagem.
+                        </p>
+
+                    </div>
+
+
+                    <form class="bg-white p-4 p-md-5 rounded-4 shadow-sm">
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+
+                                <label for="nome" class="form-label fw-semibold">
+                                    Nome
+                                </label>
+
+                                <input 
+                                    type="text"
+                                    class="form-control"
+                                    id="nome"
+                                    placeholder="Digite seu nome"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label for="email" class="form-label fw-semibold">
+                                    E-mail
+                                </label>
+
+                                <input 
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Digite seu e-mail"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label for="assunto" class="form-label fw-semibold">
+                                    Assunto
+                                </label>
+
+                                <input 
+                                    type="text"
+                                    class="form-control"
+                                    id="assunto"
+                                    placeholder="Digite o assunto">
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label for="mensagem" class="form-label fw-semibold">
+                                    Mensagem
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="mensagem"
+                                    rows="5"
+                                    placeholder="Digite sua mensagem"
+                                    required></textarea>
+
+                            </div>
+
+
+                            <div class="col-12 text-center mt-4">
+
+                                <button 
+                                    type="submit"
+                                    class="btn btn-primary btn-lg px-5">
+                                    Enviar mensagem
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RODAPÉ ================= -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-2 fw-bold">
+                Isadora.dev
+            </p>
+
+            <p class="mb-3 text-secondary">
+                Portfólio desenvolvido com Bootstrap 5.
+            </p>
+
+            <div>
+
+                <a href="#" class="text-white fs-4 me-3">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="#" class="text-white fs-4 me-3">
+                    <i class="bi bi-github"></i>
+                </a>
+
+                <a href="#" class="text-white fs-4">
+                    <i class="bi bi-envelope"></i>
+                </a>
+
+            </div>
+
+            <hr>
+
+            <small class="text-secondary">
+                © 2026 Isadora. Todos os direitos reservados.
+            </small>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
